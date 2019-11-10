@@ -8,3 +8,4 @@ def reverse_each_word(string)
   reverse.join(" ")
 end
 
+def reverse_each_word_with_collect
