@@ -8,12 +8,12 @@ def reverse_each_word(string)
   reverse.join(" ")
 end
 
-def reverse_each_word_with_collect(string)
+def reverse_each_wordt(string)
   reverse = []
   original = string.split(" ")
   
   original.collect do |string|
-    string.reverse
+    reverse << string.reverse
   end
-  original.join(" ")
+  reverse.join(" ")
 end
